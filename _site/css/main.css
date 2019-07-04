@@ -41,8 +41,9 @@ footer {
 }
 
 .name {
-	font-size: 2.6rem;
-	color:  #1c2f52;
+	font-size: 1.6rem;
+	/*color:  #1c2f52;*/
+	color: white;	
 }
 
 
@@ -52,8 +53,11 @@ footer {
 }
 
 .bg-dark {
-	background-color: #1c2f52;
-	color: white;
+		color: white;
+/*	background-color:  #1c2f52;*/
+	background-image: linear-gradient(to top,rgba(28, 47, 82, 0.8),rgba(28, 47, 82, 0.9)), url("../pattern_1.jpg");
+	background-size: cover;
+
 }
 
 .bg-dark-red {
@@ -62,8 +66,8 @@ footer {
 }
 
 .blue-bg-txt {
-	background-color: rgba(255,255,255,0.9);
-	color:  #1c2f52;
+	background-color: #1c2f52;
+	color: white;
 }
 
 .white-blue-txt {
@@ -106,7 +110,7 @@ footer {
 .bg-start{
 	color: white;
 /*	background-color:  #1c2f52;*/
-	background-image: linear-gradient(to top,rgba(28, 47, 82, 0.9),rgba(28, 47, 82, 0.3)), url("../award.jpg");
+	background-image: linear-gradient(to top,rgba(0, 0, 0, 0.5),rgba(28, 47, 82, 0.7)), url("../pattern_2.jpg");
 	background-size: cover;
 	height: 650px;
 }
