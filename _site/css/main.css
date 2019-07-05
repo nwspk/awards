@@ -2,7 +2,8 @@ body {
   	font-weight: 400;
   	font-family: 'Libre Baskerville', serif;
   	color: grey;
-  	background-color: #1c2f52;
+  	/*background-color: #1c2f52;*/
+  	background-color: white;
   }
 
 body a {
@@ -42,7 +43,7 @@ footer {
 
 .name {
 	font-size: 1.6rem;
-	/*color:  #1c2f52;*/
+	/*color: v*/
 	color: white;	
 }
 
@@ -108,11 +109,16 @@ footer {
 }
 
 .bg-start{
-	color: white;
+	color: black;
 /*	background-color:  #1c2f52;*/
-	background-image: linear-gradient(to top,rgba(0, 0, 0, 0.5),rgba(28, 47, 82, 0.7)), url("../pattern_2.jpg");
+	background-image: linear-gradient(to top,rgba(0, 0, 0, 0),rgba(28, 47, 82, 0)), url("../house.png");
 	background-size: cover;
-	height: 650px;
+	height: 800px;
+}
+
+.name-box {
+	background-color: rgba(28, 47, 82, 0.9);
+	color: white;
 }
 
 .bg-start h1 {
